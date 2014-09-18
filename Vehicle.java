@@ -1,4 +1,5 @@
 package folder1.folder2;
+import java.lang.math;
 public class Vehicle{
 	//Instance Vars
 	private String md;
@@ -57,6 +58,6 @@ public class Vehicle{
 		v=v0+a*t;
 	}
 	public void distance(){
-		d=.5*a*(t^2)+v0*t+d0;
+		d=.5*a*Math.pow(t,2)+v0*t+d0;
 	}
 }
